@@ -1,0 +1,137 @@
+[root@localhost ~]# history 
+    1  pwd
+    2  ifconfig
+    3  ping 127.0.0.1
+    4  ifconfig
+    5  cheese 
+    6  cal
+    7  date
+    8  firefox 
+    9  which  firefox 
+   10  cd  /
+   11  ls
+   12  cd usr
+   13  ls
+   14  cd bin
+   15  ls
+   16  ls 
+   17  ls firefox
+   18  ls firefox1
+   19  which firefox
+   20  pwd
+   21  ls firefox
+   22  date
+   23  which   date
+   24  firefox
+   25  which firefox 
+   26  pwd
+   27  ls firefox 
+   28  gedit  firefox 
+   29  cd $HOME/.mozilla/
+   30  ls
+   31  cd firefox/
+   32  ls
+   33  cd t0rlfg1n.default/
+   34  ls
+   35  cd
+   36  cheese 
+   37  ifconfig  
+   38  ifconfig 
+   39  ping  192.168.100.108
+   40  date
+   41  ps -aux 
+   42  kill  5628 
+   43  ifconfig  
+   44  ifconfig    enp0s3 
+   45  ping  192.168.100.101
+   46  ping  192.168.100.102
+   47  ping  192.168.100.121
+   48  firefox 
+   49  ping  192.168.100.101
+   50  firefox
+   51  jobs  
+   52  fg  1
+   53  jobs  
+   54  fg 2 
+   55  ping  192.168.100.108
+   56  which firefox
+   57  cd /usr/bin/
+   58  pwd
+   59  ls   firefox
+   60  firefox 
+   61  ps aux 
+   62  kill  7173
+   63  kill  7104 
+   64  ccd
+   65  cd
+   66  date 
+   67  ssh  192.168.100.108  date 
+   68  date
+   69  ssh  192.168.100.108  date 
+   70  ssh  192.168.100.108   firefox 
+   71  ssh  192.168.100.108   cal
+   72  ping 192.168.100.108]
+   73  ping 192.168.100.108
+   74  ssh  192.168.100.108   cal
+   75  ssh  192.168.100.108   firefox 
+   76  firefox 
+   77  ssh  -X  192.168.100.108   firefox 
+   78  ssh  -X  192.168.100.108   cheese 
+   79  ssh  -X  192.168.100.109  cheese 
+   80  cd
+   81  ps  -aux 
+   82  useradd  vimal 
+   83  passwd  vimal 
+   84  which date
+   85  rpm   -qf    /bin/date 
+   86  date
+   87  pwd
+   88  ls
+   89  ls  -l 
+   90  ls  -l   anaconda-ks.cfg  
+   91  ls    anaconda-ks.cfg  
+   92  date
+   93  ls    anaconda-ks.cfg  
+   94  ls  -l   anaconda-ks.cfg  
+   95  ls  -l
+   96  ls  -l  -h
+   97  ls  -lh 
+   98  cal
+   99  which firefox 
+  100  rpm  -qf   /bin/firefox 
+  101  rpm  -e   firefox 
+  102  firefox 
+  103  which date
+  104  rpmm  -qf  /bin/date
+  105  rpm -qf  /bin/date
+  106  rpm  -q  coreutils 
+  107  rpm  -q  firefox 
+  108  rpm  -ql   coreutils 
+  109  rpm  -ql   firefox 
+  110  rpm  -q   firefox 
+  111  yum    install   firefox 
+  112  rpm -q firefox 
+  113  rpm -ql  firefox 
+  118  pwd
+  119  python2
+  120  free -m
+  121  cd //etc/yum.repos.d/
+  122  vim lw.repo 
+  123  yum repolist 
+  124  cd
+  125  rpm  -q  python
+  126  rpm  -q  python3
+  127  rpm  -q  python6
+  128  rpm  -q  python36
+  129  yum list python*
+  130  rpm -q  python36
+  131  yum  install   python36
+  132  history 
+  133  python2 -V
+  134  python3 -V
+  135  python36  -V
+  136  python36 
+  137  python36
+
+
+

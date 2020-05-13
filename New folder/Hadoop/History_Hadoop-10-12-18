@@ -1,0 +1,72 @@
+482  hostname
+  483  ifconfig  enp0s3
+  484  gedit  /etc/hosts
+  485  ping  master.lw.com
+  486  ping  slave1.lw.com
+  487  ping  slave2.lw.com
+  488  scp    /etc/hosts    slave1.lw.com:/etc/hosts
+  489  scp    /etc/hosts    slave2.lw.com:/etc/hosts
+  490  redhat
+  491  rpm -q jdk
+  492  cd Desktop/
+  493  rpm -ivh jdk-8u171-linux-x64.rpm 
+  494  export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64/
+  495  export PATH=/usr/java/jdk1.8.0_171-amd64/bin/:$PATH
+  496  java -version
+  497  ls
+  498  cat test.py 
+  499  echo hi
+  500  echo hi  >>  test.py 
+  501  echo hi
+  502  cat test.py 
+  503  echo hi  >  test.py 
+  504  cat test.py 
+  505  echo hi  >  test.py 
+  506  cat test.py 
+  507  echo hi  >>  test.py 
+  508  cat test.py 
+  509  cat /root/.bashrc 
+  510  gedit /root/.bashrc
+  511  cat /root/.bashrc 
+  512  echo 'export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64/'
+  513  echo 'export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64/'  >>  /root/.bashrc 
+  514  echo 'export PATH=/usr/java/jdk1.8.0_171-amd64/bin/:$PATH'
+  515  echo 'export PATH=/usr/java/jdk1.8.0_171-amd64/bin/:$PATH' >>  /root/.bashrc 
+  516  history 
+  517  java -version
+  518  ls -l /root/.bashrc 
+  519  scp  /root/.bashrc   slave1.lw.com:/root/.bashrc 
+  520  scp  /root/.bashrc   slave2.lw.com:/root/.bashrc 
+  521  cd Desktop/
+  522  scp jdk-8u171-linux-x64.rpm  slave1.lw.com:/root/Desktop/
+  523  scp jdk-8u171-linux-x64.rpm  slave2.lw.com:/root/Desktop/
+  524  ssh slave1.lw.com rpm -ivh /root/Desktop/jdk-8u171-linux-x64.rpm 
+  525  ssh slave2.lw.com rpm -ivh /root/Desktop/jdk-8u171-linux-x64.rpm 
+  526  cd Desktop/
+  527  ls
+  528  rpm  -ivh   hadoop-1.2.1-1.x86_64.rpm 
+  529  rpm  -ivh   hadoop-1.2.1-1.x86_64.rpm  --force 
+  530  hadoop version
+  531  ls
+  532  scp  hadoop-1.2.1-1.x86_64.rpm   slave1.lw.com:/root/Desktop/
+  533  ssh  slave1.lw.com  rpm  -ivh   hadoop-1.2.1-1.x86_64.rpm  --force 
+  534  ssh  slave1.lw.com  rpm  -ivh   /root/Desktop/hadoop-1.2.1-1.x86_64.rpm  --force 
+  535  scp  hadoop-1.2.1-1.x86_64.rpm   slave2.lw.com:/root/Desktop/
+  536  ssh  slave2.lw.com  rpm  -ivh   /root/Desktop/hadoop-1.2.1-1.x86_64.rpm  --force 
+  537  cd /etc/hadoop/
+  538  ls
+  539  gedit   hdfs-site.xml 
+  540  mkdir /name
+  541  gedit   hdfs-site.xml 
+  542  pwd
+  543  ls
+  544  gedit  core-site.xml 
+  545  hadoop namenode -format 
+  546  hadoop-daemon.sh  start namenode  
+  547  jps  
+  548  hadoop dfsadmin  -report 
+  549  jps  
+  550  hadoop dfsadmin  -report 
+  551  iptables  -F
+  552  hadoop dfsadmin  -report 
+

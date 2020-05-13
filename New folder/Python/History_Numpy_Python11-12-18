@@ -1,0 +1,11 @@
+ 572  cd Desktop/
+  573  ls
+  574  cd python_lib/
+  575  pip3  install numpy-1.14.3-cp36-cp36m-manylinux1_x86_64.whl  -i   . 
+  576  pwd
+  577  pip3  install   opencv_python-3.4.0.12-cp36-cp36m-manylinux1_x86_64.whl   -i  . 
+  578  python36
+  579  cd /root/Desktop/
+  580  ls
+  581  jupyter  notebook  --allow-root 
+

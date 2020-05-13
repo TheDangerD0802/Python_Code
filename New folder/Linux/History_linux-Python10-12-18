@@ -1,0 +1,185 @@
+
+
+
+300  df -h
+  301  fdisk  -l
+  302  fdisk  -l  /dev/sdc
+  303  fdisk    /dev/sdc
+  304  partprobe 
+  305  partprobe   /dev/sdc 
+  306  fdisk    /dev/sdc
+  307  partprobe   /dev/sdc 
+  308  mkfs.xfs  /dev/sdc1 
+  309  mkdir  /new
+  310  mount  /dev/sdc1  /new
+  311  df -h
+  312  cd /new/
+  313  gedit  hi.txt
+  314  sdhls
+  315  ls
+  316  pwd
+  317  cd
+  318  umount /new
+  319  cd /new
+  320  ls
+  321  df -h
+  322  pwd
+  323  df -h
+  324  mkdir  /new1
+  325  mount  /dev/sdc2   /new1
+  326  df -hT
+  327  cd /new2
+  328  cd /new1
+  329  gedit h.txt
+  330  cd
+  331  df -hT
+  332  fdisk   /dev/sdc
+  333  partprobe  /dev/sdc
+  334  mkfs.ext4  /dev/sdc2 
+  335  pwd
+  336  df -h
+  337  umount /new1
+  338  cd /
+  339  ls
+  340  mkdir  /media/lw
+  341  mount  /dev/sdc2  /media/lw
+  342  df -h
+  343  e2label  /dev/sdc2 
+  344  e2label  /dev/sdc2  songs
+  345  e2label  /dev/sdc2 
+  346  e2label  /dev/sdc2  C:
+  347  history 
+  348  CD
+  349  cd
+  350  df  -h
+  351  umount /media/lw/
+  352  umount /dev/sdc1 
+  353  df -h
+  354  fdisk  -l
+  355  ifconfig  enp0s3
+  356  ping  192.168.100.111
+  357  ping  -c  2  192.168.100.111
+  358  date
+  359  alias   d=date
+  360  date
+  361  d
+  362  alias  p="ping -c 2"
+  363  p  192.168.100.111
+  364  p
+  365  date
+  366  x=5
+  367  echo   $x
+  368  d
+  369  n
+  370  p
+  371  echo $x
+  372  date
+  373  cal
+  374  date
+  375  asrteyhrt
+  376  echo  $SHELL
+  377  python
+  378  date
+  379  for((i=1; i<=10; i++)); do date; done
+  380  x=5
+  381  echo $x
+  382  alias   d=date
+  383  d
+  384  date
+  385  ls -l   /root/.bashrc 
+  386  cd Desktop/
+  387  mkdir aaaa
+  388  mkdir  .pop
+  389  ls
+  390  man  ls 
+  391  ls -a
+  392  pwd
+  393  ls
+  394  ls  -a
+  395  gedit  /root/.bashrc 
+  396  echo $x
+  397  d
+  398  echo $x
+  399  rpm  -q  firefox
+  400  rpm  -qa 
+  401  rpm  -qa  |  grep  ttpd
+  402  rpm  -qa  |  grep  python
+  403  ps  -aux 
+  404  ps  -aux  |  grep  firefox 
+  405  echo "this is linux world"
+  406  echo "this is linux world"  |  festival --tts 
+  407  date
+  408  date  |  festival --tts
+  409  gedit   /root/.bashrc 
+  410  cat /root/.bashrc
+  411  java -version
+  412  export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64/
+  413  export PATH=/usr/java/jdk1.8.0_171-amd64/bin/:$PATH
+  414  java  -version
+  415  history 
+  416  gedit  /root/.bashrc 
+  417  java  -version
+  418  cat /root/.bashrc 
+  419  ifconfig  enp0s3
+  420  mkdir  /root/Desktop/hhhh
+  421  cd Desktop/
+  422  pwd
+  423  ssh 192.168.100.111 mkdir  /root/Desktop/hhhh
+  424  ssh 192.168.100.111  date
+  425  ssh 192.168.100.111  cal
+  426  ssh 192.168.100.111 cal
+  427  ifconfig  enp0s3
+  428  ssh 192.168.100.111   bash
+  429  ssh 192.168.100.111  
+  430  ifconfig  enp0s3
+  431  pwd
+  432  cd /root/Desktop/
+  433  gedit  my.py
+  434  python  my.py
+  435  ssh 192.168.100.111 python  my.py
+  436  ls
+  437  scp  my.py  192.168.100.111:/root/Desktop/
+  438  ssh 192.168.100.111 python  my.py
+  439  ssh 192.168.100.111 python  /root/Desktop/my.py 
+  440  scp  192.168.100.111:/root/Desktop/python_lib               . 
+  441  scp  -r   192.168.100.111:/root/Desktop/python_lib               . 
+  442  history 
+  443  ping  www.google.com
+  444  nslookup  www.facebook.com
+  445  ping  192.168.100.111
+  446  ping  vimal
+  447  gedit   /etc/hosts 
+  448  ping  vimal
+  449  gedit   /etc/hosts 
+  450  ping cv
+  451  ping v
+  452  ping  lw
+  453  gedit   /etc/hosts 
+  454  ping  master.lw.com
+  455  scp  /etc/hosts  192.168.100.111:/etc/hosts
+  456  cat /etc/hosts
+  457  ifconfig enp0s3
+  458  cat /etc/hosts
+  459  hostname
+  460  hostnamectl  set-hostname master.lw.com
+  461  hostname
+  462  cd
+  463  ifconfig  enp0s3
+  464  jupyter  notebook 
+  465  whoami  
+  466  jupyter  notebook   --allow-root  
+  467  python36  menu.py 
+  468  ssh-keygen  
+  469  ssh-copy-id   192.168.100.111 
+  470  ssh  192.168.100.111  date
+  471  ssh  192.168.100.111 
+  472  python36  menu.py 
+  473  python36
+  474  cd Desktop/
+  475  python3  menu.py 
+  476  yum install python36 
+  477  python36   menu.py 
+  478  gedit  menu.py 
+  479  cd /root/.ssh/
+  480  ls
+

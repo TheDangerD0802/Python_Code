@@ -1,0 +1,162 @@
+139  cat   /proc/meminfo 
+  140  fdisk  -l 
+  141  init 0
+  142  fdisk   -l
+  143  fdisk   -l  /dev/sdb
+  144  fdisk     /dev/sdb
+  145  fdisk  -l
+  146  lsblk 
+  147  parted /dev/sdb  print 
+  148  history 
+  149  ls -l
+  150  gedit  anaconda-ks.cfg 
+  151  ls -l
+  152  date
+  153  fdisk  -l  /dev/sdb
+  154  mkfs.ext4    /dev/sdb6 
+  155  cd /
+  156  ls
+  157  mkdir  /data
+  158  pwd
+  159  ls
+  160  cd /data
+  161  ls
+  162  cd ..
+  163  pwd
+  164  mount  /dev/sdb6    /data
+  165  cd /data
+  166  gedit hi.txt
+  167  ls
+  168  pwd
+  169  cd ..
+  170  umount  /data
+  171  cd /data
+  172  ls
+  173  cd ..
+  174  mount  /dev/sdb6    /data
+  175  cd /data
+  176  ls
+  177  cat hi.txt 
+  178  df -h
+  179  umount /data
+  180  pwd
+  181  cd ..
+  182  umount /data
+  183  df -h
+   185  echo hello | fastival --tts
+  186  yum  install festival
+  187  echo hello | festival --tts
+  188  date | festival --tts
+  189  echo hello | festival --tts
+  190  yum  install php  -y
+  191  vim my.php
+  192  php  my.php
+  193  vim my.php
+  194  php  my.php
+  195  vim my.php
+  196  python36 
+  197  python2
+  198  pwd
+  199  ls
+  200  cd Desktop
+  201  pwd
+  202  mkdir vimal 
+  203  gedit   test.py 
+  204  pwd
+  205  ls
+  206  python36   test.py 
+  207  date
+  208  xyz
+  209  echo  hi
+  210  echo "bash: xyz: command not found.."
+  211  date
+  212  man  date
+  213  date
+  214  echo $?
+  215  xyz
+  216  echo $?
+  217  python36   menu.py 
+  218  xyz
+  219  python36   menu.py 
+  220  python36  menu.py 
+  221  python36   menu.py 
+  222  useradd  pop
+  223  id  pop
+  224  id  eric
+  225  id  vimal
+  226  id harry
+  227  python36   menu.py 
+  228  id harry
+  229  id jack
+  230  python36   menu.py 
+  231  id jack
+  232  id amiy
+  233  id amit
+  234  python36   menu.py 
+  235  id amit
+  236  python36   menu.py 
+  237  id amit
+  238  python36   menu.py 
+  239  id eric1
+  240  python36   menu.py 
+  241  jupyter 
+  242  pip
+  243  yum
+  244  vim hi.py
+  245  python36
+  246  python36  menu.py 
+  247  tput setaf  3
+  248  date
+  249  tput setaf  1
+  250  cal
+  251  tput setaf  0
+  252  python36
+  253  cd Desktop/
+  254  gedit  menu.py 
+  255  python36  menu.py 
+  256  gedit  menu.py 
+  257  ping  goo.gl
+  258  ls
+  259  python36   get-pip.py 
+  260  ifconfig  enp0s3
+  261  cd
+  262  pwd
+  263  ls
+  264  pwd
+  265  cd  .
+  266  pwd
+  267  ifconfig enp0s3
+  268  ping  192.168.100.110
+  269  ifconfig  
+  270  dhclient  enp0s3 
+  271  dhclient  -v  enp0s3 
+  272  kill  2910
+  273  dhclient  -v  enp0s3 
+  274  ifconfig  enp0s3 
+  275  reboot 
+  276  ifconfig  enp0s3
+  277  ping master.lw.com
+  278  cat /etc/hosts
+  279  ifconfig  enp0s3
+  280  hostnamectl   set-hostname  slave2.lw.com
+  281  ifconfig  enp0s3
+  282  hostname
+  283  hadoop  version
+  284  hostname
+  285  ping  master.lw.com
+  286  iptables  -F
+  287  df -h
+  288  cd /etc/hadoop/
+  289  ls
+  290  df -h
+  291  mkdir /data
+  292  mkdir /vimal
+  293  gedit  hdfs-site.xml 
+  294  gedit core-site.xml 
+  295  jps 
+  296  hadoop-daemon.sh    start datanode
+  297  jps 
+
+
+
+

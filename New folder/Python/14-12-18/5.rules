@@ -1,0 +1,1 @@
+ACTION=="add" SUBSYSTEM=="usb"  RUN=="/root/Downloads/usb_monitoring_cam.py"
